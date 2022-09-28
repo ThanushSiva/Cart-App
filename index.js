@@ -124,7 +124,7 @@ function render() {
               <p><del>${String(e.price + (e.price / 10)).slice(0, 5)}</del></p>
               <div class="offer">${10}% off</div>
           </div>
-          <button class="btncart" onclick="addToCart(${e.id})">Add to Cart</button>
+          <button class="btncart" onclick="addToCart(${e.id - 1})">Add to Cart</button>
         </div>
       </div>
         `
